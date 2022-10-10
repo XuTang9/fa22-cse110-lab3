@@ -55,17 +55,25 @@ alt="pictrue for books">
   vedio and audio taken in lab
 </details>
 <div>
-  <h1>forms for absence</h1>
+  <h1>forms for absence and favorite books</h1>
 <form>
   <fieldset>
     <input type="date">
     <input type="text">
-    <textarea>add-ons</textarea>
-
-    <datalist>
-      <option value = "catching">
-        
+    <textarea>add ons</textarea>
+    <input list = "reason" name="reason">
+    <datalist id="reason">
+      <option value = "cold">
+      <option value = "fever">
+      <option value = "covid">
     </datalist>
+    <select>
+      <option>---choose favorite kind of books---</option>
+      <option>novel</option>
+      <option>poem</option>
+      <option>literature</option>
+    </select>
+    <button>submit</button>
   </fieldset>
 </form>
 </div>
