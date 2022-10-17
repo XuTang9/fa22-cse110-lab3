@@ -12,6 +12,3 @@ The format should be changed to make the information more readable and fits more
 
 **Expected behavior**
 move the part accordingly
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
