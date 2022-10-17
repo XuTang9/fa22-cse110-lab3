@@ -1,0 +1,30 @@
+header{
+    font-size: 5em;
+    text-align: center;
+    color: rgb(141, 87, 192);
+    background-color: black;
+}
+p{
+    color: rgb(114, 113, 116);
+    font-size: 1.3rem;
+    height: 3ex;
+}
+.resize{
+    width: 200px;
+    height: auto;
+}
+h1{
+    font-size: xx-large;
+}
+h2{
+    color: rgb(232, 199, 151);
+}
+h3{
+    color: blanchedalmond;
+}
+.box{
+    background-color: rgb(117, 161, 161);
+}
+.forms{
+    background-color: rgb(101, 211, 175);
+}
