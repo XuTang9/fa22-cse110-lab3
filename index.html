@@ -56,29 +56,37 @@
     vedio and audio taken in lab
   </details>
 </div>
-  <div class="forms">
-    <h1>Forms for Absence And Favorite Books</h1>
+  <div>
+    <h1>Forms for Favorite Books</h1>
   <form>
-    <fieldset>
-      <input type="date">
-      <input type="text">
-      <textarea>add ons</textarea>
-      <input list = "reason" name="reason">
-      <datalist id="reason">
-        <option value = "cold">
-        <option value = "fever">
-        <option value = "covid">
-      </datalist>
-      <select>
+    <fieldset class="flex-container">
+      <input class="flex-item" type="text">
+      <textarea class="flex-item" style="font-size:large ;">Add ons</textarea>
+      <select class="flex-item" >
         <option>---choose favorite kind of books---</option>
         <option>novel</option>
         <option>poem</option>
         <option>literature</option>
       </select>
-      <button>submit</button>
+      <input class="flex-item" type="date">
+      <button class="flex-item">submit</button>
     </fieldset>
   </form>
   </div>
+  <h1>Forms for Absence</h1>
+  <form>
+    <fieldset class="container">
+      <textarea class="item" style="font-size:large ;">Name</textarea>
+      <input list = "reason" name="reason">
+      <datalist class="item" id="reason">
+        <option value = "Cold">
+        <option value = "Fever">
+        <option value = "Covid">
+      </datalist>
+      <input class="flex-item" type="date">
+      <button class="item">submit</button>
+    </fieldset>
+  </form>
   </main>
   <footer>2022/10/1</footer>
 </body>
