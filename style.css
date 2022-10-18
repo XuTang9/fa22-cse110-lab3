@@ -11,6 +11,7 @@ p{
     height: 3ex;
     text-decoration:wavy;
 }
+/* section to format the book image  */
 .resize{
     width: 200px;
     height: auto;
@@ -66,8 +67,25 @@ h3{
 .audio{
     min-width:600px;
 }
-.forms{
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items:stretch;
     background-color: rgb(101, 211, 175);
+}
+.flex-item{
+    flex-grow: 2;
+    flex-shrink: 3;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto;
+    justify-items: stretch;
+
+    background-color: rgb(101, 211, 175);
+
 }
 button:hover{
     color:rgb(53, 191, 203);
