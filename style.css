@@ -22,11 +22,11 @@ h1{
     font-size: xx-large;
     text-align: center;
 }
-h2{
-    color: rgb(232, 199, 151);
-}
 h3{
     color: blanchedalmond;
+}
+h1,h2{
+    color: rgb(105, 107, 235);
 }
 .box{
     background-color: rgb(117, 161, 161);
@@ -57,6 +57,7 @@ h3{
     position: relative;
     top: 10px;left: 70px;
 }
+
 #vedio{
     max-height: 10cm;
     max-width: 100px;
@@ -83,7 +84,6 @@ h3{
     grid-template-columns:auto;
     grid-template-rows: auto;
     justify-items: stretch;
-
     background-color: rgb(101, 211, 175);
 
 }
@@ -92,4 +92,33 @@ button:hover{
 }
 a:active{
     color:rgb(202, 191, 191);
+}
+@media (width:360px) {
+    button:hover{
+        color: black;
+    }
+    *{
+        color: aliceblue;
+    }
+}
+a[href="https://en.wikipedia.org/wiki/Jin_Ping_Mei"]{
+    color: rgb(224, 228, 95);
+}
+datalist option{
+    color: rgb(213, 101, 50);
+}
+li li{
+    background-color: bisque;
+}
+li > ul{
+    color: aliceblue;
+} 
+li ~ li{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+li:first-of-type + li{
+    color: rgb(66, 152, 227);
+}
+p.iron{
+    color:black
 }
