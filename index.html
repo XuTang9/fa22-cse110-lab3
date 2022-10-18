@@ -4,6 +4,9 @@
  <meta charset="utf-8">
  <title>Brainstorm for Final project</title>
  <link rel="stylesheet" href="style.css">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
  <header>Hardcore34 Meeting Minutes Webpage</header>
@@ -11,69 +14,88 @@
  <div class="box">
  <img class="resize" src="./screenshots/book.jpeg"
  alt="pictrue for books">
- <h1 style="color:purple;">Webpage for books</h1>
- <h2>Literature</h2> 
- <p>a body of written works. The name has traditionally 
+ <h1 style="color:rgb(159, 109, 159);">Project IDEA:Webpage for books</h1>
+ <div class="li_box">
+  <h2>Literature:</h2> 
+  <p>a body of written works. The name has traditionally 
   been applied to those <b>imaginative</b> works of poetry and prose 
   distinguished by the intentions of their authors and the perceived 
   aesthetic excellence of their execution.</p>
- <h3>French <span>literature</span></h3>
- <ul>
-  <li>La Chanson de Roland</li>
-  <li>Tristan et Iseult</li>
-  <li>La vie de Gargantua et de Pantagruel </li>
-  <li>Le Rouge et le Noir </li>
- </ul>
- <h3>Chinese literature</h3>
- <ul>
+  <h3>French <span>literature</span></h3>
+  <ul>
+   <li>La Chanson de Roland</li>
+   <li>Tristan et Iseult</li>
+   <li>La vie de Gargantua et de Pantagruel </li>
+   <li>Le Rouge et le Noir </li>
+  </ul>
+  <h3>Chinese literature examples</h3>
+  <ul>
   <li><strong> <a href="https://en.wikipedia.org/wiki/Jin_Ping_Mei">Jin Ping Mei</a>
    </strong></li>
   <li>Lady Meng Jiang </li>
   <li>The Cowherd and the Weaver Girl </li>
   <li>Butterfly Lovers</li>
  </ul>
-  <hr>
-  <h2>Novels</h2>
-  <p>a fictitious prose narrative of book length, typically 
-    representing <em>character</em> and <i>action</i> with some degree of realism.
-  </p>
-  <h3>scientific novels</h3>
-  <h3>fantasy novels</h3>
-  <hr>
+</div>
+  <div class="novels">
+   <h2>Novels:</h2>
+   <p>A fictitious prose narrative of book length, typically 
+    representing <em>character</em> and <i>action</i> with some degree of <span>realism</span>
+   </p>
+   <h3>Scientific novels</h3>
+   <h3>Fantasy novels</h3>
   </div>
-  <nav>the choice of topic</nav>
-  <audio controls>
-    <source src="./media/audio.mp3">
+  <audio class="audio" controls>
+  <source src="./media/audio.mp3">
   </audio>
-  <video controls>
+  <video id="vedio" controls>
     <source src="./media/video.mp4" type="video/mp4">
   </video>
   <details>
     <summary>details</summary>
     vedio and audio taken in lab
   </details>
-  <div class="forms">
-    <h1>forms for absence and favorite books</h1>
+</div>
+  <div>
+    <h1>Forms for Favorite Books</h1>
   <form>
-    <fieldset>
-      <input type="date">
-      <input type="text">
-      <textarea>add ons</textarea>
-      <input list = "reason" name="reason">
-      <datalist id="reason">
-        <option value = "cold">
-        <option value = "fever">
-        <option value = "covid">
-      </datalist>
-      <select>
+    <fieldset class="flex-container">
+      <input class="flex-item" type="text">
+      <textarea class="flex-item" attribute="foo">Add ons</textarea>
+      <select class="flex-item" >
         <option>---choose favorite kind of books---</option>
         <option>novel</option>
         <option>poem</option>
         <option>literature</option>
       </select>
-      <button>submit</button>
+      <input class="flex-item" type="date">
+      <button class="flex-item">submit</button>
     </fieldset>
   </form>
+  </div>
+  <h1>Forms for Absence</h1>
+  <form>
+    <fieldset class="container">
+      <textarea class="item" style="font-size:large ;">Name</textarea>
+      <input list = "reason" name="reason">
+      <datalist class="item" id="reason">
+        <option value = "Cold">
+        <option value = "Fever">
+        <option value = "Covid">
+      </datalist>
+      <input class="flex-item" type="date">
+      <button class="item">submit</button>
+    </fieldset>
+  </form>
+  <div>
+  <h1>Shame Wall</h1>
+    <li>
+      <ul>
+        <li>Spiderman</li>
+        <li>batman</li>
+      </ul>
+    </li>
+    <p class="iron">iron man rocks
   </div>
   </main>
   <footer>2022/10/1</footer>

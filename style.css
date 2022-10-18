@@ -3,28 +3,122 @@ header{
     text-align: center;
     color: rgb(141, 87, 192);
     background-color: black;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 p{
     color: rgb(114, 113, 116);
     font-size: 1.3rem;
     height: 3ex;
+    text-decoration:wavy;
 }
+/* section to format the book image  */
 .resize{
     width: 200px;
     height: auto;
+    position: relative;
+    left: 600px;
 }
 h1{
     font-size: xx-large;
-}
-h2{
-    color: rgb(232, 199, 151);
+    text-align: center;
 }
 h3{
     color: blanchedalmond;
 }
+h1,h2{
+    color: rgb(105, 107, 235);
+}
 .box{
     background-color: rgb(117, 161, 161);
 }
-.forms{
+.li_box{
+    width: 1200px;
+    height:350px;
+    margin-top: 2em;
+    margin-bottom: 0;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 40px;
+    border: 5px solid rgb(164, 107, 107);
+    border-width: 15px;
+    border-radius: 20cm;
+    cursor: pointer;
+}
+.novels{
+    width: 1200px;
+    height:180px;
+    padding: 10px,0px,10px,50px;
+    margin:2em 5em 2em 5em;
+    border: 5px solid rgb(164, 107, 107);
+    border-width: 10px;
+    position: relative;
+    top: 10px;left: 70px;
+}
+
+#vedio{
+    max-height: 10cm;
+    max-width: 100px;
+    position: relative;
+    left: 400px;
+    
+}
+.audio{
+    min-width:600px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items:stretch;
     background-color: rgb(101, 211, 175);
+}
+.flex-item{
+    flex-grow: 2;
+    flex-shrink: 3;
+}
+.container{
+    display: grid;
+    grid-template-columns:auto;
+    grid-template-rows: auto;
+    justify-items: stretch;
+    background-color: rgb(101, 211, 175);
+
+}
+button:hover{
+    color:rgb(53, 191, 203);
+}
+a:active{
+    color:rgb(202, 191, 191);
+}
+@media (width:360px) {
+    button:hover{
+        color: black;
+    }
+    *{
+        color: aliceblue;
+    }
+}
+a[href="https://en.wikipedia.org/wiki/Jin_Ping_Mei"]{
+    color: rgb(224, 228, 95);
+}
+datalist option{
+    color: rgb(213, 101, 50);
+}
+li li{
+    background-color: bisque;
+}
+li > ul{
+    color: aliceblue;
+} 
+li ~ li{
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+li:first-of-type + li{
+    color: rgb(66, 152, 227);
+}
+p.iron{
+    color:black
 }
